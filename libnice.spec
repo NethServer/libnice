@@ -1,6 +1,6 @@
 Name:           libnice
-Version:        0.1.13
-Release:        1%{?dist}
+Version: 0.1.13
+Release: 1%{?dist}
 Summary:        GLib ICE implementation
 
 Group:          System Environment/Libraries
@@ -80,6 +80,9 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 %{_bindir}/*-example
 
 %changelog
+* Tue Jul 24 2018 Stefano Fancello <stefano.fancello@nethesis.it> - 0.1.13-1
+- upgrade to 0.1.13 Nethserver/dev#5511
+
 * Wed Nov  8 2017 Stefano Fancello <stefano.fancello@nethesis.it> - 0.1.4-1
 - Update to 0.1.4.
 
