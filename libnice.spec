@@ -9,6 +9,7 @@ URL:            http://nice.freedesktop.org/wiki/
 Source0:        http://nice.freedesktop.org/releases/%{name}-%{version}.tar.gz
 
 BuildRequires:	glib2-devel
+BuildRequires:	gnutls-devel
 BuildRequires:  gstreamer-devel
 BuildRequires:	gstreamer-plugins-base-devel
 BuildRequires:  gstreamer1-devel >= 0.11.91
