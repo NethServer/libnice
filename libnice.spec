@@ -1,5 +1,5 @@
 Name:           libnice
-Version: 0.1.13
+Version: 0.1.15
 Release: 1%{?dist}
 Summary:        GLib ICE implementation
 
