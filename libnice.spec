@@ -1,5 +1,5 @@
 Name:           libnice
-Version: 0.1.13
+Version: 0.1.15
 Release: 1%{?dist}
 Summary:        GLib ICE implementation
 
@@ -9,6 +9,7 @@ URL:            http://nice.freedesktop.org/wiki/
 Source0:        http://nice.freedesktop.org/releases/%{name}-%{version}.tar.gz
 
 BuildRequires:	glib2-devel
+BuildRequires:	gnutls-devel
 BuildRequires:  gstreamer-devel
 BuildRequires:	gstreamer-plugins-base-devel
 BuildRequires:  gstreamer1-devel >= 0.11.91
@@ -77,7 +78,6 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/nice.pc
 %{_datadir}/gtk-doc/html/%{name}/
-%{_bindir}/*-example
 
 %changelog
 * Tue Jul 24 2018 Stefano Fancello <stefano.fancello@nethesis.it> - 0.1.13-1
