@@ -80,6 +80,9 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 %{_datadir}/gtk-doc/html/%{name}/
 
 %changelog
+* Mon Nov 18 2019 Stefano Fancello <stefano.fancello@nethesis.it> - 0.1.15-1
+- upgrade to 0.1.15 Nethserver/dev#5914
+
 * Tue Jul 24 2018 Stefano Fancello <stefano.fancello@nethesis.it> - 0.1.13-1
 - upgrade to 0.1.13 Nethserver/dev#5511
 
