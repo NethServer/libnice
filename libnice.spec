@@ -80,6 +80,9 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 %{_datadir}/gtk-doc/html/%{name}/
 
 %changelog
+* Thu May 28 2020 Alessandro Polidori <alessandro.polidori@nethesis.it> - 0.1.16-1
+- Release 0.1.16 - nethserver/dev#6135
+
 * Mon Nov 18 2019 Stefano Fancello <stefano.fancello@nethesis.it> - 0.1.15-1
 - upgrade to 0.1.15 Nethserver/dev#5914
 
